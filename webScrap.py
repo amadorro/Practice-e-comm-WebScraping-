@@ -43,7 +43,7 @@ for i in soup.find_all('span', class_='price product-price'):
 for j in price:
     print(j)
 
-# save it into a csv file: price and res
+# save it into a csv file: price and Item_name
 
 # name of file
 file_name = "women's_items.csv"
